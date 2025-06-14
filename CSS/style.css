@@ -1,0 +1,57 @@
+body{
+    font-family: 'Arial', sans-serif;
+    border: 3px solid red;
+}
+
+
+/* Type Selector */
+
+/* h2{
+    color: red;
+    font-size: 30px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+} */
+
+/* class selectors */
+
+.sporty{
+    color: red;
+}
+
+.casual{
+    color: blue;
+}
+
+.formal{
+    color: brown;
+}
+
+/* id selectors */
+
+#container{
+    max-width: 600px;
+    margin: 100px auto;
+    padding:200px
+}
+
+/* Multiple styling */
+
+.sporty, .casual{
+   font-size: 35px;
+}
+
+/* Decendant Selector */
+
+/* #container p{
+    background:blue;
+  
+} */
+
+/* p{
+    background:red;
+
+} */
