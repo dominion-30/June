@@ -1,6 +1,10 @@
 body{
-    font-family: 'Arial', sans-serif;
+    font-family: "poppins" sans-serif;
     border: 3px solid red;
+}
+
+p{
+    font-weight: semibold;
 }
 
 
