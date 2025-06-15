@@ -2,6 +2,10 @@ body{
     font-family: "poppins" sans-serif;
     border: 3px solid red;
     line-height: 1.6;
+    background-color:#fff; /*short hand*/
+    /* rgb */
+    /* background: rgb(0,0,0);
+     */
 }
 a{
     text-decoration: none;
@@ -79,3 +83,48 @@ a{
     background:red;
 
 } */
+
+/* color names */
+.sporty{
+    color: red;
+}
+
+/* Hex values */
+.casual{
+    color: #e04553;
+}
+
+.card{
+    /* RGBA */
+   background-color:  rgba(0,0,0,0.5);
+
+   /* HSL */
+   background-color: hsl(0, 100%, 50%);
+
+   /* hsla */
+   background-color: hsla(120, 100%, 50%, 0.7) ;
+}
+
+.card-2{
+    background-color: #000;
+    color: #fff;
+    opacity: 0.2;
+}
+#heading{
+    color: purple;
+}
+
+.container h1{
+    color: blue;
+}
+
+.heading{
+    color: green;
+}
+
+h1{
+    color: red;
+}
+
+
+
