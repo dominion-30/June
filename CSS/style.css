@@ -155,4 +155,24 @@ h1{
 } */
 
 
+/* regular link styling */
+a{
+    text-decoration: none;
+    color: #333;
+}
 
+a:hover{
+    color: red;
+}
+
+a:active{
+    background-color: purple;
+}
+
+a:focus{
+    background-color: yellow;
+}
+
+a:visited{
+    background-color: coral;
+}
