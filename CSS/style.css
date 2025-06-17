@@ -1,13 +1,41 @@
 body{
     font-family: "poppins" sans-serif;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     line-height: 1.6;
     background-color:#fff; /*short hand*/
+    margin: 0;
     /* rgb */
     /* background: rgb(0,0,0);
      */
 }
-a{
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url("grab-0PEoPx4j8hc-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:scroll; 
+
+    /* linear gradient */
+    /* background-image: linear-gradient(to left top, blue, red); */
+      
+}
+
+.hero h1{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.hero p{
+    text-align: center;
+    font-size: 2rem;
+}
+/* a{
     text-decoration: none;
 }
 h2{
@@ -29,7 +57,7 @@ h2{
 
 p{
     font-weight: semibold;
-}
+} */
 
 
 /* Type Selector */
@@ -60,11 +88,11 @@ a{
 
 /* id selectors */
 
-#container{
+/* #container{
     max-width: 600px;
     margin: 100px auto;
     padding:200px
-}
+} */
 
 /* Multiple styling */
 
@@ -105,16 +133,16 @@ a{
    background-color: hsla(120, 100%, 50%, 0.7) ;
 }
 
-.card-2{
+/* .card-2{
     background-color: #000;
     color: #fff;
     opacity: 0.2;
 }
 #heading{
     color: purple;
-}
+} */
 
-.container h1{
+/* .container h1{
     color: blue;
 }
 
@@ -124,7 +152,7 @@ a{
 
 h1{
     color: red;
-}
+} */
 
 
 
