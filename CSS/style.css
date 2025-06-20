@@ -176,3 +176,12 @@ a:focus{
 a:visited{
     background-color: coral;
 }
+
+.fa-facebook{
+    color: blue;
+    font-size: 50px;
+}
+
+.fa-instagram{
+    color:green;
+}
