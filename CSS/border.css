@@ -95,3 +95,25 @@ a{  display: inline-block;
     right: 0px;
     margin: 0;
 } */
+section{
+    display: flex;
+}
+.box{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+
+}
+
+.box-1{
+    box-shadow: 10px 10px 15px rebeccapurple;
+}
+
+.box-2{
+    box-shadow: 10px 10px 15px rgba(102,51,153, 0.5);
+}
