@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    margin: 200px auto;
+    background-color: #f1f1f1;
+   
+}
+.container input{
+    width: 100%;
+    padding: 5px;
+    font-size: large;
+
+   
+
+    
+}
+
+.container label{
+  
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+}
+
+form{
+    padding: 20px;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.form-group a{
+    display: block;
+    
+    text-align: center;
+}
+
+.box{
+    position: relative;
+    left:20px;
+}
+
+.checked{
+    position: absolute;
+    top: 0;
+    left: -190px;
+}
