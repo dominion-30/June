@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Raleway&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d9e2e8;
+    font-family: "Roboto", sans-serif;
+    
+}
+.container{
+    max-width: 600px;
+    margin: 100px auto;
+}
+.box{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+    width: 400px;
+    height: 150px;
+    
+    padding: 20px 20px;
+    /* position: relative; */
+}
+
+.box h2{
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+.box p{
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.box a{
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+.box-1 h2{
+    color: #e04553;
+}
+.box-1 a{
+    background-color: #e04553;
+    
+}
+
+.box-2 h2{
+    color: #0d4ba3;
+}
+.box-2 a{
+    background-color: #0d4ba3;
+}
+
+.box-3 h2{
+    color: #512b22;
+}
+.box-3 a{
+    background-color: #512b22;
+}
+
+/* .img{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    
+} */
+
+/* .img img{
+    width: 30%;
+} */
+
+.box-1{
+    background-image: url("images/sporty.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: right;
+    background-position-y: center;
+    background-color: rgba(255, 255,255, 0.9);
+}
+
+.box-2{
+    background-image: url("images/casual.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: right;
+    background-position-y: center;
+    background-color: rgba(255, 255,255, 0.9);
+}
+
+.box-3{
+    background-image: url("images/formal.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: right;
+    background-position-y: center;
+    background-color: rgba(255, 255,255, 0.9);
+}
